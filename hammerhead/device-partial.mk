@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES := \
 # System Apps
 PRODUCT_PACKAGES += \
     OmaDmclient \
+    qcrilmsgtunnel \
     SprintHiddenMenu \
     UpdateSetting
 
