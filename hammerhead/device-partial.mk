@@ -14,6 +14,7 @@
 
 # LGE blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
+    vendor/lge/hammerhead/proprietary/flp.conf:/system/etc/flp.conf:lge \
     vendor/lge/hammerhead/proprietary/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb:lge \
@@ -57,6 +58,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/lge/hammerhead/proprietary/widevine.b03:system/vendor/firmware/widevine.b03 \
     vendor/lge/hammerhead/proprietary/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/lge/hammerhead/proprietary/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/hammerhead/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/hammerhead/proprietary/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
     vendor/lge/hammerhead/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so \
