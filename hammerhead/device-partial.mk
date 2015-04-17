@@ -14,6 +14,11 @@
 
 # LGE blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
+    vendor/lge/hammerhead/proprietary/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
+    vendor/lge/hammerhead/proprietary/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
+    vendor/lge/hammerhead/proprietary/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
+    vendor/lge/hammerhead/proprietary/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
+    vendor/lge/hammerhead/proprietary/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
     vendor/lge/hammerhead/proprietary/flp.conf:/system/etc/flp.conf:lge \
     vendor/lge/hammerhead/proprietary/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:lge \
     vendor/lge/hammerhead/proprietary/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb:lge \
@@ -44,10 +49,15 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so:lge \
     vendor/lge/hammerhead/proprietary/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so:lge \
     vendor/lge/hammerhead/proprietary/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so:lge \
+    vendor/lge/hammerhead/proprietary/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so:lge \
+    vendor/lge/hammerhead/proprietary/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so:lge \
+    vendor/lge/hammerhead/proprietary/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so:lge \
     vendor/lge/hammerhead/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so:lge \
-    vendor/lge/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/lge/hammerhead/proprietary/libmmcamera_mt9m114b.so:system/lib/libmmcamera_mt9m114b.so:lge \
+    vendor/lge/hammerhead/proprietary/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so:lge \
+    vendor/lge/hammerhead/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so:lge \
     vendor/lge/hammerhead/proprietary/libssd.so:system/lib/libssd.so \
-    vendor/lge/hammerhead/proprietary/librpmb.so:system/lib/librpmb.so \
+    vendor/lge/hammerhead/proprietary/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/hammerhead/proprietary/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/hammerhead/proprietary/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/hammerhead/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
@@ -71,6 +81,12 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/hammerhead/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lge/hammerhead/proprietary/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/lge/hammerhead/proprietary/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/lge/hammerhead/proprietary/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/lge/hammerhead/proprietary/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/lge/hammerhead/proprietary/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/lge/hammerhead/proprietary/venus.mdt:system/vendor/firmware/venus.mdt \
 
 # System Apps
 PRODUCT_PACKAGES += \
