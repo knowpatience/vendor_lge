@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/lge/hammerhead/proprietary/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/lge/hammerhead/proprietary/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/lge/hammerhead/proprietary/vss_init:system/vendor/bin/vss_init \
 
 # System Apps
 PRODUCT_PACKAGES += \
